@@ -31,8 +31,8 @@ const submitButton = contactForm.querySelector('button[type="submit"]');
 const successMessage = document.getElementById("success-message");
 const errorMessage = document.getElementById("error-message");
 
-// Function to show a success or error message (5 seconds)
-function showMessage(element, duration = 5000) {
+// Function to show a success or error message (8 seconds)
+function showMessage(element, duration = 8000) {
     element.style.display = "block";
     setTimeout(() => {
         element.style.display = "none";
